@@ -11,6 +11,7 @@ import android.widget.ProgressBar;
 
 import com.example.android.thegunnersnews.R;
 import com.example.android.thegunnersnews.adapter.NewsAdapter;
+import com.example.android.thegunnersnews.adapter.SimpleDividerItemDecoration;
 import com.example.android.thegunnersnews.model.News1;
 import com.example.android.thegunnersnews.model.Result;
 import com.example.android.thegunnersnews.rest.ApiClient;
@@ -39,6 +40,7 @@ public class NewsActivity extends AppCompatActivity {
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.addItemDecoration(new SimpleDividerItemDecoration(this));
 
         progressBar = (ProgressBar) findViewById(R.id.progress_bar);
         progressBar.setVisibility(View.VISIBLE);

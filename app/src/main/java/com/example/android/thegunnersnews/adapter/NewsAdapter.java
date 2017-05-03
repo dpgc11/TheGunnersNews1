@@ -102,7 +102,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
             newsTitle = (TextView) v.findViewById(R.id.newsTitleId);
             newsDate = (TextView) v.findViewById(R.id.dateId);
             v.setOnClickListener(this);
-            mContext = itemView.getContext();
+            mContext = v.getContext();
             newsImage = (ImageView) v.findViewById(R.id.imageview);
         }
 
