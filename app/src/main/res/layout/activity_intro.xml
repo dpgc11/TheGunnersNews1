@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark">
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/toolbar_top"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:minHeight="?attr/actionBarSize"-->
+        <!--android:background="@android:color/holo_green_dark">-->
+
+
+        <!--<ImageButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@mipmap/gunners_logo"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:layout_gravity="center"/>-->
+
+
+    <!--</android.support.v7.widget.Toolbar>-->
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@android:color/darker_gray"-->
+        <!--android:layout_below="@id/toolbar_top"></View>-->
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Why not follow your passion?"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:id="@+id/tv_heading"/>
+        <!--android:layout_below="@id/toolbar_top"/>-->
+
+    <ImageView
+        android:id="@+id/iv_aspirant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_travel"
+        android:scaleType="fitCenter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
+
+<!--<LinearLayout-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:orientation="vertical"-->
+<!--android:layout_centerInParent="true"-->
+<!--android:gravity="center_horizontal">-->
+<!--</LinearLayout>-->
