@@ -1,2 +1,2 @@
 # TheGunnersNews1
-needs cleaning
+needs to be cleaned
