@@ -1,2 +1,2 @@
 # TheGunnersNews1
-Shows news about Arsenal FC using recycler view
+Shows news about Arsenal FC 
